@@ -1,0 +1,22 @@
+h3 {
+    height: 100px;
+    width: 310px;
+    background-color: blueviolet;
+}
+.paper {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(44, 44, 255);
+}
+
+.rock {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.scissors {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
