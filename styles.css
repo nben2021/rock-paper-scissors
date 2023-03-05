@@ -1,0 +1,77 @@
+h1{
+    background-color: yellow;
+    border: solid 5px black;
+    width: 450px;
+    text-align: center;
+}
+h3 {
+    border: solid 5px black;
+    height: 170px;
+    width: 450px;
+    background-color: blueviolet;
+}
+h2 {
+    background-color: yellow;
+    border: solid 5px black;
+    width: 450px;
+    text-align: center;
+
+}
+#container {
+    
+font-size: 22px;
+display: flex;
+gap: 30px;
+}
+#container em{
+    background-color: blueviolet;
+}
+#container #myScore{
+    background-color: yellow;
+    border-radius: 5px;
+    border: solid 2px black;
+}
+
+#container #computerScore{
+    background-color: red;
+    border-radius: 5px;
+    border: solid 2px black;
+}
+#button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#button-container .button {
+    background-color: rgb(167, 113, 218);
+    justify-content: space-around;
+    width: 100px;
+}
+.paper {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(44, 44, 255);
+}
+
+.rock {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.scissors {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+
+h3 #pcPick{
+    text-align: center;
+}
+h3 #myPick{
+    text-align: center;
+}
+h3 #winner{
+    text-align: center;
+}
