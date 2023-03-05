@@ -3,18 +3,24 @@ h1{
     border: solid 5px black;
     width: 450px;
     text-align: center;
+    border-radius: 8px;
+
 }
 h3 {
     border: solid 5px black;
     height: 170px;
     width: 450px;
     background-color: blueviolet;
+    border-radius: 8px;
+
 }
 h2 {
     background-color: yellow;
     border: solid 5px black;
     width: 450px;
     text-align: center;
+    border-radius: 8px;
+
 
 }
 #container {
@@ -37,7 +43,7 @@ gap: 30px;
     border-radius: 5px;
     border: solid 2px black;
 }
-#button-container {
+#buttons-container {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -74,4 +80,7 @@ h3 #myPick{
 }
 h3 #winner{
     text-align: center;
+}
+html {
+ background-color: brown;
 }

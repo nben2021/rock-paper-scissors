@@ -9,13 +9,11 @@ let huChoice = huPick();
 function coPick(){
     let num = Math.floor(Math.random()*3);
 
-    if(num === 0) {
-        return "Rock";
-    } else if(num === 1) {
-        return "Paper";
-    } else {
-        return "Scissors";
-    }
+    switch (num) {
+        case 0: return "Rock";
+        case 1: return "Paper";
+        default: return "Scissors";
+      }
 }
 
 // STEP 2: Get human choice from user input
