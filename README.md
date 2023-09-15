@@ -6,10 +6,6 @@ This project is a simple Rock-Paper-Scissors game implemented in HTML, CSS, and 
 
 Check out the live demo of the project [here](https://nben2021.github.io/rock-paper-scissors/).
 
-## Screenshots
-
-*(You can add some screenshots of your game here)*
-
 ## Getting Started
 
 To get started, you can clone this repository locally or simply download the files.
