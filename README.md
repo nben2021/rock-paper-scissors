@@ -1,6 +1,6 @@
 # Rock-Paper-Scissors Game
 
-This project is a simple Rock-Paper-Scissors game implemented in HTML, CSS, and JavaScript. It's a part of the curriculum for [The Odin Project's Web Development 101 course](https://www.theodinproject.com/lessons/rock-paper-scissors).
+This project is a simple Rock-Paper-Scissors game implemented in HTML, CSS, and JavaScript. It's a part of the curriculum for [The Odin Project's Web Development course](https://www.theodinproject.com/lessons/rock-paper-scissors).
 
 ## Live Demo
 
