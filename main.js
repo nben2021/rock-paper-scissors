@@ -1,32 +1,3 @@
-// Rock, Paper, Scissors Game - Code Overview
-
-// What's the game plan?
-// 1. We start the game with zero rounds played and zero scores for both human and computer.
-// 2. We show clickable buttons for Rock, Paper, and Scissors.
-// 3. When the page loads, we get the buttons ready for clicks.
-// 4. If someone clicks a button, we remember what the human chose and also let the computer make a random choice.
-// 5. We announce the choices on the screen.
-// 6. We compare the choices to decide who wins the round and update the scores.
-// 7. After 5 rounds, we announce the overall winner and disable the buttons.
-
-// More Detailed Steps
-// 1. Create variables to keep track of rounds played, human score, and computer score.
-// 2. Wait for the web page to be ready.
-// 3. Find all the buttons on the page.
-// 4. When a button is clicked:
-//   - Remember what the human clicked.
-//   - Make the computer pick randomly.
-//   - Show both choices on the screen.
-//   - Go to the function to figure out who won the round.
-// 5. To decide who won the round:
-//   - Check if it's a draw.
-//   - Or check if the human won.
-//   - Or the computer wins by default.
-//   - Update the round and scores.
-// 6. After 5 rounds, announce the overall winner.
-// 7. Stop the game by making buttons unclickable.
-// 8. Show the final scores on the screen.
-
 let roundsPlayed = 0;
 let huScore = 0;
 let pcScore = 0;
