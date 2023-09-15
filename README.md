@@ -38,7 +38,3 @@ To get started, you can clone this repository locally or simply download the fil
 - HTML
 - CSS
 - JavaScript
-
-## Acknowledgements
-
-- [The Odin Project](https://www.theodinproject.com/)
