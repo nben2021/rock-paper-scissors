@@ -1,88 +1,77 @@
-/* Styling for h1 headers */
 h1{
     background-color: rgb(255, 255, 255);
     border: solid 5px black;
     width: 450px;
     text-align: center;
     border-radius: 8px;
-}
 
-/* Styling for h3 headers */
+}
 h3 {
     border: solid 5px black;
     height: 170px;
     width: 450px;
     background-color: rgb(72, 0, 255);
     border-radius: 8px;
-}
 
-/* Styling for h2 headers */
+}
 h2 {
     background-color: rgb(255, 255, 255);
     border: solid 5px black;
     width: 450px;
     text-align: center;
     border-radius: 8px;
-}
 
-/* Main container styling */
-#container { 
+
+}
+#container {
+    
 font-size: 22px;
 display: flex;
 gap: 30px;
 }
-
-/* Styling for emphasized text within the container */
 #container em{
     background-color: blueviolet;
 }
-
-/* Styling for the player's score within the container */
 #container #myScore{
     background-color: yellow;
     border-radius: 5px;
     border: solid 2px black;
 }
 
-/* Styling for the computer's score within the container */
 #container #computerScore{
     background-color: red;
     border-radius: 5px;
     border: solid 2px black;
 }
-
-/* Container for buttons */
 #buttons-container {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-/* General button styling */
 #button-container .button {
     background-color: rgb(167, 113, 218);
     justify-content: space-around;
     width: 100px;
 }
-
-/* Styles for paper, rock, and scissors elements */
 .paper {
     height: 100px;
     width: 100px;
     background-color: rgb(44, 44, 255);
 }
+
 .rock {
     height: 100px;
     width: 100px;
     background-color: red;
 }
+
 .scissors {
     height: 100px;
     width: 100px;
     background-color: yellow;
 }
 
-/* Text alignment within h3 headers */
 h3 #pcPick{
     text-align: center;
 }
@@ -92,12 +81,11 @@ h3 #myPick{
 h3 #winner{
     text-align: center;
 }
-/* Background color for the entire HTML document */
 html {
  background-color: brown;
 }
 
-/* Button background color */
+
 .button {
     background-color: rgb(255, 0, 221);
 }
