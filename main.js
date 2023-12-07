@@ -1,11 +1,11 @@
-// Initialize variables for game state
+// Variables 
 let roundsPlayed = 0;
 let huScore = 0;
 let pcScore = 0;
 let coChoice = coPick();
 let huChoice = huPick();
 
-// STEP 1: Generate computer choice
+// Computer choice
 function coPick(){
     let num = Math.floor(Math.random()*3);
 
@@ -16,7 +16,7 @@ function coPick(){
       }
 }
 
-// STEP 2: Get human choice from user input
+// Human choice 
 document.addEventListener("DOMContentLoaded", () => {huPick();});
 function huPick(){
     const buttons = document.querySelectorAll(".button");
@@ -32,7 +32,7 @@ function huPick(){
     }
 }
 
-// STEP 3: Determine winner of each round
+// Determine winner of each round
 function roundOne(huChoice, coChoice) {
     roundsPlayed++;
     // Determine winner of round and update scores
@@ -41,18 +41,18 @@ function roundOne(huChoice, coChoice) {
         huChoice === "Scissors" && coChoice === "Scissors") {
           document.getElementById("winner").textContent = "This round is draw";
 
-        // No score change for draw
+        // No score change if draw
     } else if(huChoice === "Rock" && coChoice === "Scissors" ||
         huChoice === "Paper" && coChoice === "Rock" ||
         huChoice === "Scissors" && coChoice === "Paper") {
         huScore++;
         document.getElementById("winner").textContent = "This round winner is human";
 
-        // Increment human score for win
+        // Increase human score if win
     } else {
         pcScore++;
         document.getElementById("winner").textContent = "This round winner is computer";
-        // Increment computer score for win
+        // Increase human score if lose
     }
 
     if (roundsPlayed === 5) {
@@ -68,7 +68,7 @@ function roundOne(huChoice, coChoice) {
       const buttons = document.querySelectorAll(".button");
       buttons.forEach((button) => (button.disabled = true));
   }
-    // Update score display
+    // Update score 
     document.getElementById("myScore").textContent = "Human - " + huScore;
     document.getElementById("computerScore").textContent = "Computer - " + pcScore;    
 }
